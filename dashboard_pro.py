@@ -49,6 +49,7 @@ with tab2:
     st.plotly_chart(fig_line, use_container_width=True)
 
 st.subheader("📡 Multi-Account Status")
+
 df_status = pd.DataFrame([
     {"Account": "👑 Master (Zerodha)", "ID": "MASTER_01", "P&L": 5400, "Status": "Active"},
     {"Account": "⚡ Child 1 (Zerodha)", "ID": "CHILD_01", "P&L": 5400, "Status": "Active"},
